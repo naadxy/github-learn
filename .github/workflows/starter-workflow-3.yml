@@ -5,10 +5,10 @@ on:
   workflow_dispatch:
     inputs:
       name:
-        description: 'Enter your name'
+        description: "Enter your name"
         required: true
       age:
-        description: 'How old are you?'
+        description: "How old are you?"
         required: false
         default: "21"
 
